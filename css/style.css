@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;
+}
+.container{
+    width: 90%;
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+}
+.navbar{
+    width: 1200px;
+    height: 81px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+}
+.navbar div ul{
+    height: 81px;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.navbar div ul li{
+    border-bottom: 2px solid white;
+}
+.navbar div ul li:hover{
+    cursor: pointer;
+    color: #0082F4;
+    border-bottom: 2px solid #0082F4;
+}
+.navbar div button{
+    width: 161px;
+    height: 52px;
+    background-color: #0082F4;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.navbar div button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #0082F4;
+    border: 2px solid #0082F4;
+}
+/* <<<<<<<>>>>>>>> */
+.introduction{
+    width: 1152px;
+    height: 500px;
+    margin: 100px auto;
+    display: flex;
+}
+.introduction .left , .introduction .right{
+    width: 50%;
+    height: 500px;
+
+}
+.introduction .left h2{
+    width:236px;
+    height: 29px;
+    color: #0082F4;
+    font-size: 25px;
+    margin-top: 85px;
+}
+.introduction .left h1{
+    width: 531px;
+    height: 148px;
+    font-size: 66.55px;
+}
+.introduction .left h1 span{
+    color: #0082F4;
+}
+.introduction .left p{
+    width: 436px;
+    height: 46px;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 20px;
+}
+.introduction .left .btn{
+    display: flex;
+    gap: 30px;
+}
+.introduction .left .btn button{
+    width: 194px;
+    height: 63px;
+    font-size:20px;
+    border-radius: 10px;
+    border: 2px solid rgb(214, 205, 205);
+}
+.introduction .left .btn .left{
+    background-color: #0082F4;
+    color: white;
+    border: none;
+}
+.introduction .left .btn .left:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #0082F4;
+    border: 2px solid #0082F4;
+}
+.introduction .left .btn .right{
+    background-color: white;
+    color: black;
+}
+.introduction .left .btn .right:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+.introduction .left .btn .right i{
+    margin-right: 5px;
+}
+.introduction .right{
+    background-image: url(../imges/introduction/Image.svg);
+    background-size: 500px 500px;
+}
+/* <<<<<<<<<<<>>>>>>>>>> */
+.parent{
+    display: flex;
+    width: 1174px;
+    height: 486px;
+    margin: 50px auto;
+}
+.parent .child--left , .parent .child--right{
+    width: 50%;
+    height: 100%;
+}
+.parent .child--right h3{
+    width: 136px;
+    height: 29px;
+    color: #0082F4;
+    font-size:25px ;
+    margin-top: 95px;
+    margin-left: 25px;
+}
+.parent .child--right h2{
+    width: 496px;
+    height: 122px;
+    font-size: 49px;
+    padding-left: 25px;
+    margin-top: 5px
+}
+.parent .child--right p{
+    width: 503px;
+    height: 90px;
+    font-size: 20px;
+    color:rgb(92, 84, 84);
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.parent .child--right button{
+    width: 193px;
+    height: 63px;
+    font-size: 20px;
+    background-color: #0082F4;
+    color: white;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 10px;
+    border: none;
+}
+.parent .child--right button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #0082F4;
+    border: 2px solid #0082F4;
+}
+
+/* <<<<<<<<<>>>>>>>>>>> */
+
+.works{
+    display: flex;
+    justify-content: space-between;
+    width: 1164px;
+    height: auto;
+    margin: 0px auto 125px auto;
+}
+.container .head h2{
+    margin-top: 200px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 48px;
+}
+.works .item{
+    text-align: center;
+}
+.works .item h2{
+    margin-top: 60px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.works .item p{
+    width: 324px;
+    height: 90px;
+    font-size: 20;
+    margin-top: 10px;
+}
+
+/* <<<<<<<<<<<<<<<>>>>>>>>>>>>>> */
+.summary{
+    width: 1235px;
+    height: auto;
+    margin: 0 auto 65px auto;
+    font-size: 48.44px;
+}
+.person{
+    width: 1235px;
+    margin: 0 auto 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.person .avatar{
+    display: flex;
+    width: 378px;
+    height: 283px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #c6daeb;
+}
+.person .avatar .left{
+    width: 70px;
+    height: 100%;
+    background-color:#0082F4 ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.person .avatar .left img{
+    width: 56px;
+    height: 66px;
+    position: absolute;
+    top: 109px;
+    left: 45px;
+}
+.person .avatar .right .title{
+    width: 181px;
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 20px;
+    color: rgb(111, 105, 105);
+}
+.person .avatar .right .leo{
+    width: 162px;
+    height: 24px;
+    margin-top: 45px;
+    margin-left: 95px;
+    font-size: 20px;
+}
+.person .avatar .right .end{
+    width: 191px;
+    height: 24px;
+    margin-top: 10px;
+    margin-left: 95px;
+    font-size: 20px;
+    color: rgb(111, 105, 105);
+}
+
+/* <<<<<<<<<<<<<<<>>>>>>>>>>>>> */
+.email{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+   background-color: #E8ECFF4D;
+   padding-top: 75px;
+   padding-bottom: 75px;
+}
+.email h2{
+    text-align: center;
+    font-size: 31.25px;
+    color: #0082F4;
+    margin-top: 75px;
+}
+.email h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.email label{
+    position: relative;
+}
+.email label input{
+    width: 600px;
+    height: 80px;
+    margin-top: 30px;
+    border: 1px solid #88bdeb;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 50px;
+}
+.email label i{
+    position: absolute;
+    font-size: 28px;
+    left: 10px;
+    top: -7px;
+}
+.email label .button input{
+    width: 102px;
+    height: 52px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0082F4;
+    color: white;
+    position: absolute;
+    right: 18px;
+    top: -50px;
+}
+.email label .button input:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #0082F4;
+    border: 2px solid #0082F4;
+}
+
+.email label .submit{
+    padding-left: 5px;
+}
+/* <<<<<<<<<<<>>>>>>>>>>>> */
+.items {
+    width: 1100px;
+    height: 218px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.items .item img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+}
+.items .item p{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.items .item ul{
+    list-style: none;
+}
+.items .item ul li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.info{
+    width: 100%;
+    height: 120px;
+    background-color: #0082F4;
+}
+.info .box{
+    width: 1100px;
+    height: 120px;
+    margin: 0 auto;
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+.info .box .icon i{
+    margin-left: 40px;
+    font-size: 30px;
+    color: white;
+}
+.info .box .icon button{
+    width: 131px;
+    height: 52px;
+    border-radius: 10px;
+    background-color:white;
+    color: #0082F4;
+    border: none;
+    font-size: 20px;
+
+}
+
